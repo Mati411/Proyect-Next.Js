@@ -1,0 +1,8 @@
+/* .container {
+    background-color: bisque;
+} */
+
+/* 
+! ESTOS TIPOS DE ESTILOS SIRVEN PARA IMPORTARSE EN UNA PANTALLA UNICA
+! LA MANERA DE UTILIZACION DENTRO DEL DOM ES className={ nombre_de_import.nombre_estilo }
+ */

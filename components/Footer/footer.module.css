@@ -1,0 +1,46 @@
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+}
+
+.container {
+    width: 80%;
+    height: 100%;
+    margin: 50px 10% 0 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    height: 100px;
+    width: 150px;
+    background: url(../../public/images/logo-footer.png) no-repeat 50%;
+    background-size: cover;
+    margin: 0 25px;
+}
+
+.lista {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.lista>li {
+    background-color: #35bdb2;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.lista>li:hover {
+    transform: scale(1.1);
+}

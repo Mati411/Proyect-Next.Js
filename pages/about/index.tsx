@@ -1,11 +1,9 @@
 import React from 'react'
-import Navbar from '../../components/Navbar/Navbar'
 
 const AboutPage = () => {
   return (
-    <section>
-      <Navbar />
-      <h1>Sobre los aguacates</h1>
+    <section style={{ width: '70%', margin: '25px 15%' }}>
+      <h1>Este sería un about... Si tuviese uno</h1>
     </section>
   )
 }

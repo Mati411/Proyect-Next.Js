@@ -1,0 +1,31 @@
+.navbar {
+    width: 100%;
+    height: 100px;
+    background-color: #36393f;
+}
+
+.menu {
+    width: 70%;
+    height: 100px;
+    margin: 0 15%;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    background: url(../../public/images/logo-navbar.png) no-repeat 50%;
+    background-size: cover;
+    height: 80%;
+    width: 120px;
+    margin: 10% 0;
+}
+
+.derecha {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 20px;
+    font-weight: 600;
+}
